@@ -6,6 +6,8 @@ Below you will find the boilerplate Creat React App README instructions.
 
 Note that HashRouter was used instead of BrowserRouter for deployment to GitHub Pages (a static hosting environment).
 
+Unpublished deployment and re-deployed build.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
