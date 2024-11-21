@@ -4,7 +4,7 @@ This app was created by developer Sedonia Raethstein for the buisness Braving Co
 
 Below you will find the boilerplate Creat React App README instructions. 
 
-Notes:
+Note that HashRouter was used instead of BrowserRouter for deployment to GitHub Pages (a static hosting environment).
 
 # Getting Started with Create React App
 
