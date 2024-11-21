@@ -8,8 +8,7 @@ export default function About() {
   const navigate = useNavigate();
 
   const myStyle = {
-    backgroundImage: "url(" +
-        "https://images.pexels.com/photos/72509/pexels-photo-72509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" + ")",
+    backgroundImage: "url('https://images.pexels.com/photos/72509/pexels-photo-72509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg')",
     backgroundSize: 'cover',
     alt: 'Photo by Michael Heinrich from Pexels',
   };

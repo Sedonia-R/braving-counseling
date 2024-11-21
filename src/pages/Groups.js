@@ -5,8 +5,7 @@ import classes from "../styles/Groups.module.css";
 export default function Groups() {
 
   const myStyle = {
-    backgroundImage: "url(" +
-    "https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" + ")",
+    backgroundImage: "url('https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg')",
     backgroundSize: 'cover',
     alt: 'Photo by Scott Webb from Pexels',
   }
@@ -32,5 +31,5 @@ export default function Groups() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }

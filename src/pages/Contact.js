@@ -9,8 +9,7 @@ export default function Contact() {
   const navigate =  useNavigate();
 
   const myStyle = {
-    backgroundImage: "url(" +
-    "https://images.pexels.com/photos/1687341/pexels-photo-1687341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" + ")",
+    backgroundImage: "url(''https://images.pexels.com/photos/1687341/pexels-photo-1687341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg')",
     backgroundSize: 'cover',
     alt: 'Photo by Igor Haritanovich from Pexels',
   }

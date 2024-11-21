@@ -35,21 +35,21 @@ export default function Resources() {
             <hr />
             <p className={`${classes.nanumMyeongjoRegular} ${classes.listHeader}`}>Somatic (Body) Movement</p>
             <ul>
-              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" href="https://theworkoutwitch.com/">The Workout Witch</a></li>
+              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" rel="noreferrer" href="https://theworkoutwitch.com/">The Workout Witch</a></li>
               <li className={classes.robotoRegular}>...</li>
             </ul>
             <hr />
             <p className={`${classes.nanumMyeongjoRegular} ${classes.listHeader}`}>Meditations</p>
             <ul>
-              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" href="https://youtu.be/-aBP53BcSj8?feature=shared/">Positive Affirmations for Personal Growth</a></li>
+              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" rel="noreferrer" href="https://youtu.be/-aBP53BcSj8?feature=shared/">Positive Affirmations for Personal Growth</a></li>
               <li className={classes.robotoRegular}>...</li>
             </ul>
             <hr />
             <p className={`${classes.nanumMyeongjoRegular} ${classes.listHeader}`}>Groups & Organizations</p>
             <ul>
-              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" href="https://gainesvillepride.org/">Pride Community Center of North Central Florida (PCCNCF)</a></li>
-              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" href="https://www.thetrevorproject.org/">The Trevor Project</a></li>
-              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" href="https://namigainesville.org/">NAMI Gainesville</a></li>
+              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" rel="noreferrer" href="https://gainesvillepride.org/">Pride Community Center of North Central Florida (PCCNCF)</a></li>
+              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" rel="noreferrer" href="https://www.thetrevorproject.org/">The Trevor Project</a></li>
+              <li className={classes.robotoRegular}><a className={classes.link} target="_blank" rel="noreferrer" href="https://namigainesville.org/">NAMI Gainesville</a></li>
               <li className={classes.robotoRegular}>...</li>
             </ul>
             <hr />

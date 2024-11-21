@@ -9,8 +9,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   const myStyle = {
-    backgroundImage: "url(" +
-        "https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg" + ")",
+    backgroundImage: "url('https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg')",
     backgroundSize: 'cover',
     alt: 'Photo by Min An from Pexels',
   };
