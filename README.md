@@ -2,7 +2,9 @@
 
 This app was created by developer Sedonia Raethstein for the buisness Braving Counseling with Vicki, LLC.
 
-Below you will find the boilerplate Creat React App REAMDE instructions:
+Below you will find the boilerplate Creat React App README instructions. 
+
+Notes:
 
 # Getting Started with Create React App
 
