@@ -129,3 +129,10 @@ body {
     font-size: 4.5vw;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .listItems {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+}

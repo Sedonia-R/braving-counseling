@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div className={classes.col2}>
           <p className={classes.footerTitle}>Braving Counseling with Vicki, LLC</p>
-          <p className={`${classes.address}${classes.robotoRegular}`}>115 NE 7th Ave, Suite 103; Gainesville, FL 32601</p>
+          <p className={`${classes.address}`}>115 NE 7th Ave, Suite 103; Gainesville, FL 32601</p>
           <p className={`${classes.email} ${classes.handleeRegular}`}><i className="fa-regular fa-envelope" /> <a className="email" href="mailto:vsknoxmsw@gmail.com">vsknoxmsw@gmail.com</a></p>
           <p className={`${classes.phone} ${classes.handleeRegular}`}><i className="fa-solid fa-mobile-screen" /> (352) 290-2038</p>
         </div>

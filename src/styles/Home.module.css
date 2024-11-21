@@ -119,10 +119,6 @@ h1 {
   border-top: 1px solid rgb(95, 42, 42);
   border-bottom: 1px solid rgb(95, 42, 42);
 }
-/* 
-.invitation {
-  font-size: 1.8vw;
-} */
 
 .picture {
   height: 40vh;
@@ -231,63 +227,3 @@ h1 {
     width: 100%;
   }
 }
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  html {
-    font-size: 62.5% !important;
-  }
-  body {
-    font-size: 1.6rem;
-  }
-  .logo {
-    height: 0;
-    width: 0;
-  }
-  .about {
-    padding: 2rem 2rem;
-  }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  html {
-    font-size: 62.5% !important;
-  }
-  body {
-    font-size: 2rem;
-  }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  html {
-    font-size: 100% !important;
-  }
-  
-  body {
-    font-size: 1.4rem;
-  }
-} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  html {
-    font-size: 100% !important;
-  }
-  
-  body {
-    font-size: 1.6rem;
-  }
-} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  html {
-    font-size: 100% !important;
-  }
-  
-  body {
-    font-size: 2rem;
-  }
-} */

@@ -36,7 +36,7 @@
 }
 
 .faqBackground {
-  height: 200vh;
+  height: 230vh;
   width: 100%;
 }
 
@@ -44,7 +44,7 @@
   position: absolute;
   top: 20vh;
   left: 10vw;
-  height: 130vh;
+  height: 100%;
   width: 80vw;
 }
 
@@ -73,7 +73,7 @@ label {
   width: 100%;  
   color: black;  
   padding: 20px;  
-  font-size: 2.5rem;
+  font-size: 4vh;
   font-weight: bold;
 }
 
@@ -91,4 +91,22 @@ input:checked~ul.submenu {
 
 .answer{
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 910px) {
+  .faqBackground {
+    height: 300vh;
+  }
+
+  .faqContainer {
+    top: 15vh;
+  }
+
+  .pageTitle {
+    font-size: 5vw;
+  }
+
+  label {  
+    font-size: 3vw;
+  }
 }
