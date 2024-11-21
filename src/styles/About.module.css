@@ -237,6 +237,23 @@ button:hover {
   .endText {
     margin-bottom: 15rem;
   }
+
+  .pageTitle {
+    font-size: 4vw;
+  }
+
+  .introText {
+    font-size: 3vw;
+  }
+
+  .quote {
+    margin-top: 1.5vh;
+    font-size: 3vw;
+  }
+  
+  .author {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
