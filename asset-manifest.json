@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/braving-counseling/static/css/main.a3f05e24.css",
+    "main.js": "/braving-counseling/static/js/main.7a98c47d.js",
+    "static/js/453.419a5d54.chunk.js": "/braving-counseling/static/js/453.419a5d54.chunk.js",
+    "static/media/resources.jpg": "/braving-counseling/static/media/resources.500af6c78e0fa55a3002.jpg",
+    "static/media/faqs.jpg": "/braving-counseling/static/media/faqs.c5b59c893e16b2a663ad.jpg",
+    "static/media/group.png": "/braving-counseling/static/media/group.da74457fa6dfc67c1e8f.png",
+    "static/media/forest-pic.jpg": "/braving-counseling/static/media/forest-pic.98d1c15bfed82093bdcf.jpg",
+    "static/media/group-background.png": "/braving-counseling/static/media/group-background.1383e7ceb33921e38605.png",
+    "static/media/single.png": "/braving-counseling/static/media/single.0aaf1a3f89cc4cf4befb.png",
+    "static/media/individual-background.jpg": "/braving-counseling/static/media/individual-background.9a7cd2a9c9b188838c7b.jpg",
+    "static/media/bc-logo-white.png": "/braving-counseling/static/media/bc-logo-white.36fe027cce34ac931caa.png",
+    "static/media/safe-space.png": "/braving-counseling/static/media/safe-space.0b4f223b43e8dd901652.png",
+    "static/media/bc-nav-logo.png": "/braving-counseling/static/media/bc-nav-logo.c837b6c0d3c52c07b3e6.png",
+    "index.html": "/braving-counseling/index.html",
+    "main.a3f05e24.css.map": "/braving-counseling/static/css/main.a3f05e24.css.map",
+    "main.7a98c47d.js.map": "/braving-counseling/static/js/main.7a98c47d.js.map",
+    "453.419a5d54.chunk.js.map": "/braving-counseling/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3f05e24.css",
+    "static/js/main.7a98c47d.js"
+  ]
+}
