@@ -1,0 +1,73 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid #d4af37;
+  width: 100vw;
+  background-color: white;
+  display:flex;
+}
+
+img {
+  height: 14vh;
+  width: auto;
+}
+
+.col1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  opacity: 1;
+  width: 25vw;
+}
+
+.col1:hover {
+  cursor: pointer;
+}
+
+.col2 {
+  text-align: center;
+  padding: 1rem;
+  width: 75vw;
+}
+
+.footerTitle {
+  margin-bottom: 0.6rem;
+  font-size: 2.5vh;
+}
+
+p {
+  width: 100%;
+}
+
+.address {
+  font-size: 1.5vh;
+}
+
+.col3 {
+  width: 25vw;
+}
+
+.col3 > img {
+  padding: 1rem;
+}
+
+.email {
+  margin-top: 1vh;
+}
+
+.phone, .email {
+  font-size: 2vh;
+}
+
+.handleeRegular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

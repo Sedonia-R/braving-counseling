@@ -1,0 +1,263 @@
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanumMyeongjoRegular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScRegular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.resources {
+  margin-top: 15vh;
+  width: 100%;
+  height: 230vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 7%;
+}
+
+.title {
+  font-size: 6vh;
+  background: white;
+  height: 10vh;
+  width: 30vw;
+  margin-top: 3vh;
+  border-radius: 15px;
+  border: 2px solid #887642;
+}
+
+.content {
+  display: flex;
+  margin-top: 0;
+  height: 93%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subHeader {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 1vh 10vw;
+  margin-bottom: 2vh;
+  background-color: rgb(80, 118, 80);
+  font-size: 1.8rem;
+  color: white;
+  border: 2px solid #887642;
+}
+
+.list {
+  width: 60vw;
+  height: auto;
+  padding: 3vh 3vw;
+  text-align: left;
+  background-color: #fbf9f3;
+  border-radius: 15px;
+  border: 2px solid #887642;
+  /* opacity: 0.9; */
+  margin-bottom: 25vh;
+}
+
+.listHeader {
+  font-size: 2.6vh;
+  font-weight: bold;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.bookSubjects {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.list > ul {
+  height: auto;
+  width: 100%;
+  margin-bottom: 3vh;
+  padding-top: 20px;
+  padding-left: 2vw;
+  list-style: circle;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.list > ul > li {
+  width: 100%;
+}
+
+.link {
+  font-size: 1.8vh;
+  color: black;
+}
+
+.link:hover{
+  color: rgb(80, 118, 80);
+}
+
+.link:active{
+  color: rgb(171, 120, 25);
+}
+
+.link:visited{
+  color: purple;
+}
+
+.listItem {
+  font-size: 1.8vh;
+  width: 100%;
+  padding-bottom: 0.6rem;
+}
+
+.listItem > p {
+  padding-left: 2vw;
+}
+
+.trevor {
+  padding-top: 5px;
+}
+
+.rainbow {
+  text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.red {
+  color: red;
+  /* font-weight: bold; */
+}
+
+.orange {
+  color: orange;
+  /* font-weight: bold; */
+}
+
+.yellow {
+  color: yellow;
+  /* font-weight: bold; */
+}
+
+.green {
+  color: green;
+  /* font-weight: bold; */
+}
+
+.blue {
+  color: blue;
+  /* font-weight: bold; */
+}
+
+.indigo {
+  color: indigo;
+  /* font-weight: bold; */
+}
+
+.violet {
+  color: violet;
+  /* font-weight: bold; */
+}
+
+.plus {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 910px) {
+  .resources {
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+    height: 280vh;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .title {
+    width: 40vw;
+  }
+  
+  .subHeader {
+    width: 98vw;
+    height: auto;
+    padding: 2vh 4vw;
+    border-radius: 0;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+  }
+
+  .list {
+    width: 98vw;
+    border-radius: 0;
+    opacity: 0.85;
+  }
+
+  .link {
+    font-size: 2vw;
+  }
+
+  .listHeader {
+    font-size: 3vw;
+  }
+  
+  .listItem {
+    font-size: 2vw;
+  }
+
+  .bookSubjects {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resources {
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+    height: 300vh;
+  }
+  
+  .title {
+    width: 50vw;
+  }
+
+  .link {
+    font-size: 2vh;
+  }
+
+  .listHeader {
+    font-size: 3vh;
+  }
+  
+  .listItem {
+    font-size: 2vh;
+  }
+
+  .bookSubjects {
+    font-size: 3.5vh;
+  }
+}

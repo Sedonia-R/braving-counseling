@@ -1,0 +1,95 @@
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanumMyeongjoRegular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScRegular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.groupsContainer {
+  background-color: blanchedalmond;
+  height: 80vh;
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  font-size: 6vh;
+  background: white;
+  margin-top: 3vh;
+  height: 10vh;
+  width: 30vw;
+  border-radius: 15px;
+  border: 2px solid #887642;
+  text-align: center;
+}
+
+.groupDescription {
+  position: absolute;
+  top: 30vh;
+  left: 20vw;
+  height: 50vh;
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #887642;
+  padding: 2rem;
+}
+
+.groupDescription > p {
+  font-size: 1.6vw;
+  text-align: center;
+}
+
+.upcomingGroups {
+  font-size: 5vh;
+}
+
+.upcoming {
+  margin-top: 2vh;
+  font-size: 2.5vh;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.upcoming > p {
+  padding: 0.5vh 0;
+}
+
+.upcoming > hr {
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 910px) {
+  .groupsContainer {
+    margin-top: 10vh;
+  }
+
+  .groupDescription {
+    top: 25vh;
+  }
+
+  .pageTitle {
+    font-size: 5vh;
+  }
+}

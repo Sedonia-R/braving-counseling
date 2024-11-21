@@ -1,0 +1,106 @@
+.playwriteIsItalics {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScRegular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScBold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.handleeRegular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contactContainer{
+  height: 100vh;
+}
+
+.pageTitle {
+  margin-top: 15vh;
+  padding-top: 3vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  font-size: 6vh;
+  color: white;
+}
+
+.contactContainer > p, .contactDeets{
+  color: white;
+  font-size: 3vh;
+  text-align: center;
+  padding: 0 10rem;
+}
+
+.contactContainer > hr {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.contactContainer > .questions {
+  font-size: 5vh;
+}
+
+.contactDeets {
+  width: 50%;
+  height: auto;
+  padding: 1vh 0;
+  margin: 1vh auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: black;
+  background-color: white;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0;
+}
+
+.consultation:hover {
+  background-color: rgb(207, 212, 161);
+  border: 2px solid green;
+  color: black;
+}
+
+.contactContainer > .space {
+  margin-bottom: 0.8vh;
+}
+
+.contactContainer > .address {
+  font-size: 2.2vh;
+}
+
+@media screen and (max-width: 910px) {
+  .pageTitle {
+    margin-top: 10vh;
+  }
+
+  .contactContainer{
+    height: 120vh;
+  }
+}

@@ -1,0 +1,94 @@
+.playwriteIsItalics {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScRegular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScBold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.handleeRegular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faqBackground {
+  height: 200vh;
+  width: 100%;
+}
+
+.faqContainer {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  height: 130vh;
+  width: 80vw;
+}
+
+.pageTitle {
+  font-size: 5vh;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 3px solid #887642;
+}
+
+input, ul.submenu {  
+  display: none;  
+  list-style:none;  
+  text-decoration: none;  
+  font-weight: bolder;  
+  margin-top: 15px;  
+}
+
+label {  
+  position: relative;  
+  display: block;  
+  cursor: pointer;  
+  background: rgb(157, 175, 157);  
+  width: 100%;  
+  color: black;  
+  padding: 20px;  
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+ /*show the submenu when input is checked*/  
+input:checked~ul.submenu {  
+  display: block;
+  background-color: white;
+  margin-top: 0;
+  padding: 2rem;
+}
+
+.questionAndAnswer {
+  margin-top: 0.5vh;
+}
+
+.answer{
+  font-size: 1.5rem;
+}

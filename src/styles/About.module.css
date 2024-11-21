@@ -1,0 +1,283 @@
+/* Google Fonts */
+.architectsDaughterRegular {
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwriteIsItalics {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScRegular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaticScBold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.handleeRegular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End Google Fonts */
+
+.about {
+  margin-top: 12vh;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pageTitle {
+  font-size: 6vh;
+  margin-bottom: 1vh;
+  margin-top: 4vh;
+  width: auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid rgba(67, 32, 32, 0.722);
+}
+
+.quoteContainer {
+  margin-top: 3vh;
+  border-top-left-radius: 19rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 19rem;
+  border-bottom-left-radius: 1rem;
+  background-color: rgba(70, 137, 70, 0.7);
+  width: 100%;
+  height: auto;
+  padding: 1vh 15vw;
+  padding-bottom: 2vh;
+}
+
+.aboutPractice {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+
+.author {
+  font-size: 2vh;
+  text-align: right;
+}
+
+.introBanner {
+  padding: 1rem;
+  padding-bottom: 4vh;
+}
+
+.topIntroWithPic {
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh auto;
+}
+
+.col1 > h2 {
+  font-size: 3.5vh;
+  margin-bottom: 1vh;
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+.col1 {
+  width: 70%;
+  padding: 1.5vw;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 3px solid rgba(67, 32, 32, 0.722);
+  border-bottom: 3px solid rgba(67, 32, 32, 0.722);
+  border-left: 3px solid rgba(67, 32, 32, 0.722);
+}
+
+.row1 {
+  height: 20%;
+  font-weight: bold;
+}
+
+.row2 {
+  height: 50%;
+  font-size: 2.2vh;
+}
+
+.secondLine {
+  margin-top: 1vh;
+}
+
+.row3 {
+  height: 20%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: left;
+}
+
+button {
+  width: auto;
+  padding: 8px;
+  font-size: 2vh;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: rgba(67, 32, 32, 0.722);
+  color: white;
+  cursor: pointer;
+}
+
+.picture {
+  margin-top: 4px;
+  height: 50vh;
+  width: auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 3px solid rgba(67, 32, 32, 0.722);
+  border-bottom: 3px solid rgba(67, 32, 32, 0.722);
+  border-right: 3px solid rgba(67, 32, 32, 0.722);
+}
+
+.intro {
+  border: none;
+  margin: 0 3% 20vh 3%;
+}
+
+.introText {
+  margin-top: 3vh;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+@media screen and (max-width: 910px) {
+  .about {
+    margin-top: 8vh;
+  }
+
+  .introBanner {
+    margin: 0;
+    padding: 2vh 0;
+  }
+
+  .col1 {
+    /* width: 80vw; */
+    border-radius: 0;
+  }
+
+  .col2 {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid rgba(67, 32, 32, 0.722);
+    border-bottom: 3px solid rgba(67, 32, 32, 0.722);
+    border-right: 3px solid rgba(67, 32, 32, 0.722);
+  }
+
+  .row2 {
+    font-size: 1.6rem;
+  }
+
+  .picture {
+    height: 35rem;
+    width: auto;
+    max-height: 100%;
+    margin-top: 0px;
+    padding: 1vh;
+    border-radius: 2rem;
+    border: none;
+  }
+
+  .topIntroWithPic {
+    width: 100%;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+
+  .endText {
+    margin-bottom: 15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col1 {
+    width: 50%;
+  }
+
+  .col2 {
+    width: 50%;
+  }
+  
+  .row1 {
+    font-size: 1.6rem !important;
+    margin-top: 2rem;
+    text-align: center !important;
+  }
+  
+  .row2 {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .header {
+    border-top-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+  }
+
+  .picture {
+    border-radius: 4rem;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    margin-top: 0px;
+    padding: 3vh;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .endText {
+    margin-bottom: 25rem;
+  }
+}

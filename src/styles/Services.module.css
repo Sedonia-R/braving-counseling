@@ -1,0 +1,248 @@
+.nanumMyeongjoRegular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadowsIntoLightRegular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.individual {
+  display: flex;
+  margin-top: 18vh;
+  padding-left: 10vw;
+}
+
+.individual > h1 {
+  font-size: 6vh;
+}
+
+.safeImg {
+  height: 15vh;
+  width: auto;
+  margin-top: 15vh;
+  padding-right: 8vw;
+}
+
+.topText {
+  position: absolute;
+  top: 30vh;
+  left: 4vw;
+  height: 20vh;
+  width: 50%;
+  font-size: 2.2vh;
+}
+
+.topText > p {
+  padding: 1vh 0;
+}
+
+.topText > button {
+  margin-top: 3vh;
+  font-size: 1.6vh;
+}
+
+.contactMe {
+  color: blue;
+
+}
+
+.contactMe:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.subHeader {
+  height: 100vh;
+  width: auto;
+  border-top: 3px solid rgba(67, 32, 32, 0.722);
+}
+
+.group {
+  text-align: right;
+  padding-top: 6vh;
+  padding-right: 15vw;
+}
+
+.group > h1 {
+  font-size: 6vh;
+}
+
+.bottomText {
+  position: relative;
+  top: 2vh;
+  left: 48vw;
+  height: 20vh;
+  width: 45vw;
+  text-align: left;
+  font-size: 2.2vh;
+}
+
+.bottomText > p {
+  padding: 1vh 0;
+}
+
+.bottomText > button {
+  margin-top: 3vh;
+  font-size: 1.6vh;
+}
+
+.singlePic {
+  width: 0;
+  height: 0;
+}
+
+.groupPic {
+  width: 0;
+  height: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .topText {
+    width: 40%;
+  }
+  
+.group {
+  padding-right: 20vw;
+}
+  
+  .bottomText {
+    position: relative;
+    left: 40vw;
+    height: 20vh;
+    width: 55vw;
+    text-align: left;
+    font-size: 2.2vh;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .individual {
+    margin-top: 14vh;
+  }
+  
+  .individual > h1 {
+    font-size: 5vw;
+  }
+  
+  .safeImg {
+    margin-top: 10vh;
+    height: 12vh;
+  }
+  
+  .topText {
+    top: 24vh;
+    width: 70%;
+    font-size: 2.2vw;
+  }
+
+  .subHeader {
+    background-image: none !important;
+    background-color: rgba(220,220,220);
+  }
+
+  .group {
+    text-align: center;
+    padding-top: 4vh;
+    padding-right: 0;
+  }
+
+  .group > h1 {
+    font-size: 5vw;
+  }
+  
+  .bottomText {
+    position: relative;
+    top: 1vh;
+    left: 4vw;
+    height: 20vh;
+    width: 88vw;
+    text-align: left;
+    font-size: 2.2vw;
+  }
+
+  .groupPic {
+    width: 100vw;
+    height: auto;
+    margin-top: 12vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .individual {
+    margin-top: 18vh;
+  }
+  
+  .individual > h1 {
+    font-size:7vw;
+  }
+  
+  .safeImg {
+    margin-top: 11vh;
+    height: 12vh;
+  }
+  
+  .topText {
+    top: 28vh;
+    width: 90vw;
+    font-size: 2vh;
+  }
+
+  .singlePicContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+  }
+
+  .singlePic {
+    height: 25vh;
+    width: auto;
+    margin-top: -5vh;
+    margin-right: 5vw;
+  }
+
+  .subHeader {
+    background-image: none !important;
+    background-color: rgba(220,220,220);
+  }
+
+  .group {
+    text-align: center;
+    padding-top: 4vh;
+    padding-right: 0;
+  }
+
+  .group > h1 {
+    font-size: 7vw;
+  }
+
+  .groupPic {
+    margin-top: 18vh;
+  }
+  
+  .bottomText {
+    position: relative;
+    top: 1vh;
+    left: 4vw;
+    height: 20vh;
+    width: 88vw;
+    text-align: left;
+    font-size: 2vh;
+  }
+}
