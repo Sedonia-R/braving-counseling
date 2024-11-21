@@ -1,6 +1,6 @@
 # Welcome to Braving Counseling!
 
-This app was created for the buisness Braving Counseling with Vicki, LLC by developer Sedonia Raethstein.
+This app was created by developer Sedonia Raethstein for the buisness Braving Counseling with Vicki, LLC.
 
 Below you will find the boilerplate Creat React App REAMDE instructions:
 
