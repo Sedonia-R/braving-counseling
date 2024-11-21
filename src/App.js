@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import  { HashRouter } from 'react-router-dom'
+import  { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home"
 import Schedule from "./pages/Schedule"
 import About from "./pages/About"
