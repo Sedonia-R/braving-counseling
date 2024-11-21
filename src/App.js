@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import  { BrowserRouter, Routes, Route } from 'react-router-dom'
+import  { HashRouter } from 'react-router-dom'
 import Home from "./pages/Home"
 import Schedule from "./pages/Schedule"
 import About from "./pages/About"
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />}/>
@@ -32,7 +32,7 @@ function App() {
           <Route path="/groups" element={<Groups />}/>
           <Route path="*" element={<NoPage />}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
