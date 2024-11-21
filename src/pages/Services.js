@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import classes from "../styles/Services.module.css";
 import safe from "../images/safe-space.png";
@@ -9,6 +10,12 @@ import single from "../images/single.png";
 import { useNavigate } from "react-router-dom";
 
 export default function Services() {
+  
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   const individualBackground = {
     backgroundImage: `url(${plant})`,
     backgroundSize: 'cover',

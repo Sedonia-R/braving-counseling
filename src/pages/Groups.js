@@ -1,9 +1,15 @@
+import React, {useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import classes from "../styles/Groups.module.css";
 
 export default function Groups() {
 
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+  
   const myStyle = {
     backgroundImage: "url('https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg')",
     backgroundSize: 'cover',

@@ -1,10 +1,16 @@
+import React, {useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import classes from "../styles/Resources.module.css";
 import background from "../images/resources.jpg";
 
 export default function Resources() {
-
+  
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+  
   const myStyle = {
     backgroundImage: `url(${background})`,
     backgroundSize: 'cover',

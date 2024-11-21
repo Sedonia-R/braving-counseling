@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import Navbar from "../components/Navbar"
 import classes from "../styles/Home.module.css"
 import forestpic from "../images/forest-pic.jpg"
@@ -5,6 +6,12 @@ import homelogo from "../images/bc-logo-white.png"
 import Footer from "../components/Footer"
 
 export default function Home() {
+  
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div>
       <Navbar />

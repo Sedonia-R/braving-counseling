@@ -1,9 +1,15 @@
+import React, {useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import classes from "../styles/FAQ.module.css";
 import faqs from "../images/faqs.jpg";
 
 export default function FAQ() {
+  
+  useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   
   const myStyle = {
     backgroundImage: `url(${faqs})`,
