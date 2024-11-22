@@ -87,9 +87,21 @@
 
   .groupDescription {
     top: 25vh;
+    left: 5vw;
+    width: 90vw;
+  }
+
+  .groupDescription > p {
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bold;
   }
 
   .pageTitle {
     font-size: 5vh;
+  }
+
+  .upcoming {
+    font-size: 4vw;
   }
 }
