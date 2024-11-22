@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/braving-counseling/static/css/main.3a5e44d9.css",
+    "main.css": "/braving-counseling/static/css/main.29fb561e.css",
     "main.js": "/braving-counseling/static/js/main.171f03d8.js",
     "static/js/453.419a5d54.chunk.js": "/braving-counseling/static/js/453.419a5d54.chunk.js",
     "static/media/resources.jpg": "/braving-counseling/static/media/resources.500af6c78e0fa55a3002.jpg",
@@ -14,12 +14,12 @@
     "static/media/safe-space.png": "/braving-counseling/static/media/safe-space.0b4f223b43e8dd901652.png",
     "static/media/bc-nav-logo.png": "/braving-counseling/static/media/bc-nav-logo.c837b6c0d3c52c07b3e6.png",
     "index.html": "/braving-counseling/index.html",
-    "main.3a5e44d9.css.map": "/braving-counseling/static/css/main.3a5e44d9.css.map",
+    "main.29fb561e.css.map": "/braving-counseling/static/css/main.29fb561e.css.map",
     "main.171f03d8.js.map": "/braving-counseling/static/js/main.171f03d8.js.map",
     "453.419a5d54.chunk.js.map": "/braving-counseling/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5e44d9.css",
+    "static/css/main.29fb561e.css",
     "static/js/main.171f03d8.js"
   ]
 }
