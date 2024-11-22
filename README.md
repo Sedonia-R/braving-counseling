@@ -2,11 +2,20 @@
 
 This app was created by developer Sedonia Raethstein for the buisness Braving Counseling with Vicki, LLC.
 
-Below you will find the boilerplate Creat React App README instructions. 
-
 Note that HashRouter was used instead of BrowserRouter for deployment to GitHub Pages (a static hosting environment).
 
-Unpublished deployment and re-deployed build.
+# Deployment to GitHub Pages:
+
+View this website live at: https://sedonia-r.github.io/braving-counseling/
+
+After making changes to parent directory, be sure to commit and push changes, and then run:
+
+$ npm run deploy
+
+Otherwise changes will not show up on published page.
+
+
+Below you will find the boilerplate Creat React App README instructions. 
 
 # Getting Started with Create React App
 
