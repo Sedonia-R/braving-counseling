@@ -101,6 +101,14 @@
   }
 
   .contactContainer{
-    height: 120vh;
+    height: 130vh;
+  }
+
+  .contactDeets {
+    width: 80vw;
+  }
+
+  .consultation {
+    font-size: 3vw;
   }
 }
