@@ -14,6 +14,9 @@ $ npm run deploy
 
 Otherwise changes will not show up on published page.
 
+# Mobile Swipe
+
+This app has a mobile swipe feature created following the instructions here: https://www.freecodecamp.org/news/how-to-build-mobile-swiping-component-in-react/#heading-the-mobileswiper-component
 
 Below you will find the boilerplate Creat React App README instructions. 
 
