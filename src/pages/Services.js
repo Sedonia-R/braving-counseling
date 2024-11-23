@@ -48,7 +48,7 @@ export default function Services() {
   return (
     <div>
       <Navbar />
-      <MobileSwiper onSwipe={handleSwipe} >
+      <MobileSwiper onSwipe={handleSwipe}>
         <div className={classes.header} style={individualBackground}>
           <div className={`${classes.individual} ${classes.shadowsIntoLightRegular}`}>
             <h1>Individual Therapy</h1>

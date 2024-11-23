@@ -35,7 +35,7 @@ export default function Resources() {
   return (
     <div>
       <Navbar />
-      <MobileSwiper onSwipe={handleSwipe} >
+      <MobileSwiper onSwipe={handleSwipe}>
         <div className={classes.resources} style={myStyle}>
           <div className={classes.header}>
             <h1 className={`${classes.shadowsIntoLightRegular} ${classes.title}`}><strong>Resources</strong></h1>

@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div>
       <Navbar/>
-      <MobileSwiper onSwipe={handleSwipe} >
+      <MobileSwiper onSwipe={handleSwipe}>
         <div className={classes.introBanner} style={myStyle}>
           <div className={classes.about}>
             <h1 className={`${classes.shadowsIntoLightRegular} ${classes.pageTitle}`}><strong>About Me</strong></h1>
