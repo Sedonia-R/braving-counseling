@@ -37,7 +37,7 @@ export default function MobileSwiper({ children, onSwipe}) {
     window.addEventListener("touchend", handleTouchEnd);
 
     return() => {
-      window.removeEventListener("touchstart, handleTouchStart");
+      window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("touchend", handleTouchEnd);
     }
   }, [handleTouchStart, handleTouchEnd])
