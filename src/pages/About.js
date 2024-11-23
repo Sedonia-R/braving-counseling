@@ -1,4 +1,4 @@
-import React, {useCallback, useContext, useEffect, useRef} from 'react';
+import React, {useCallback, useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import classes from "../styles/About.module.css";
