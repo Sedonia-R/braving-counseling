@@ -11,6 +11,8 @@ import { useNavigate } from "react-router-dom";
 import MobileSwiper from '../components/MobileSwiper';
 
 export default function Services() {
+
+  const navigate = useNavigate();
   
   useEffect(() => {
     // Scroll to top on page load
@@ -35,6 +37,7 @@ export default function Services() {
     marginTop: '0vh',
     alt: 'Photo by Scott Webb from Pexels',
   };
+
   const groupBackground = {
     backgroundImage: `url(${plant2})`,
     backgroundSize: 'cover',
@@ -42,8 +45,6 @@ export default function Services() {
     marginTop: '0vh',
     alt: 'Photo by Element5 Digital',
   };
-
-  const navigate = useNavigate();
 
   return (
     <div>
