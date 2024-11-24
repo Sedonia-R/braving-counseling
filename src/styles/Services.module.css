@@ -117,9 +117,9 @@
     width: 40%;
   }
   
-.group {
-  padding-right: 20vw;
-}
+  .group {
+    padding-right: 20vw;
+  }
   
   .bottomText {
     position: relative;
@@ -146,9 +146,9 @@
   }
   
   .topText {
-    top: 24vh;
-    width: 70%;
-    font-size: 2.2vw;
+    top: 28vh;
+    width: 50%;
+    font-size: 2vw;
   }
 
   .subHeader {
@@ -177,7 +177,7 @@
   }
 
   .groupPic {
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-top: 12vh;
   }
