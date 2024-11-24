@@ -31,7 +31,6 @@ export default function MobileSwiper({ children, onSwipe}) {
     onSwipe({ deltaX, deltaY })
   }, [startX, startY, onSwipe]);
 
-
   useEffect(() => {
     window.addEventListener("touchstart", handleTouchStart);
     window.addEventListener("touchend", handleTouchEnd);
