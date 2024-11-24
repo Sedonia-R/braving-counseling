@@ -49,7 +49,7 @@
 }
 
 .pageTitle {
-  font-size: 5vh;
+  font-size: 5rem;
   width: 100%;
   text-align: center;
   background-color: white;
@@ -73,7 +73,7 @@ label {
   width: 100%;  
   color: black;  
   padding: 20px;  
-  font-size: 4vh;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ input:checked~ul.submenu {
 }
 
 .questionAndAnswer {
-  margin-top: 0.5vh;
+  margin-top: 1vh;
 }
 
 .answer{
