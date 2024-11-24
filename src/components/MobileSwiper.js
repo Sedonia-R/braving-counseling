@@ -9,7 +9,7 @@ export default function MobileSwiper({ children, onSwipe}) {
     if (!wrapperRef.current.contains(e.target)) {
       return;
     }
-
+    
     e.preventDefault();
 
     setStartX(e.touches[0].clientX);
