@@ -46,10 +46,10 @@ body {
 /* End Google Fonts */
 
 .bkgrd {
-  height: 100%;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   object-fit: cover;
-  /* padding: 0 !important; */
+  padding: 0 !important;
 }
 
 .container {
@@ -168,7 +168,9 @@ h1 {
 
   .container {
     position: absolute;
-    margin-top: -15vh;
+    top: 10vh;
+    left: 0;
+    margin: auto;
     width: 100%;
     height: auto;
     display: flex;
@@ -208,7 +210,7 @@ h1 {
   }
 
   h1 {
-    font-size: 6vw;
+    font-size: 6vh;
   }
 
   .intro {
@@ -221,19 +223,23 @@ h1 {
     font-size: 2.8vw;
     font-weight: bold;
   }
-
-  .col4 {
-    height: 12vh;
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 4.5vh;
+    color: red;
   }
   .intro {
     font-size: 2.5vh;
+  }
+
+  .col2 {
+    height: 30vh;
+  }
+
+  .col3 {
+    height: 35vh;
   }
 
 }

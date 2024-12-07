@@ -46,7 +46,6 @@ export default function Home() {
           <div className={classes.col3}>
             <img className={classes.picture} alt="Vicki Knox, LCSW" src="https://photos.psychologytoday.com/81960a85-eb1c-4c12-8ba8-80d048dc72ad/2/320x400.jpeg" />
           </div>
-          <div className={classes.col4}></div>
         </div>
       </MobileSwiper>
       <Footer />

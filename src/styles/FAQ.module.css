@@ -93,6 +93,23 @@ input:checked~ul.submenu {
   font-size: 1.5rem;
 }
 
+.link {
+  color: black;
+}
+
+.link:hover{
+  color: rgb(80, 118, 80);
+}
+
+.link:active{
+  color: rgb(171, 120, 25);
+}
+
+.link:visited{
+  color: purple;
+}
+
+
 @media screen and (max-width: 910px) {
   .faqBackground {
     height: 300vh;

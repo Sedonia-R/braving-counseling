@@ -59,7 +59,7 @@ export default function Services() {
         <div className={`${classes.topText} ${classes.robotoRegular }`}>
           <p><strong>Why?</strong> Therapy can help you heal from past experiences, improve your well-being, relieve distress, and develop new ways of thinking. My goal is to create a safe and affirming environment in which you can explore your life story and process your feelings without shame or fear of judgement.</p>
           <p><strong>When?</strong> I provide in-person and virtual sessions lasting 50 minutes each.</p>
-          <p><strong>How much?</strong> I offer a reduced-rate sliding scale ($95- $175) for individual therapy sessions and accept some insurance (Aetna, Citgna and Evernorth). Please
+          <p><strong>How much?</strong> I offer a reduced-rate sliding scale ($95- $175) for individual therapy sessions and accept some insurance (Aetna, Citgna, Oxford, and Unired Health). Please
           <span
             className={classes.contactMe}
             onClick={()=> {

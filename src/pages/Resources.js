@@ -52,7 +52,7 @@ export default function Resources() {
                 <li className={`${classes.robotoRegular} ${classes.listItem}`}>National Suicide Prevention Lifeline: 1-800-273-8255</li>
                 <li className={`${classes.robotoRegular} ${classes.listItem}`}>The Trevor Project for <span className={classes.rainbow}><span className={classes.red}>L</span><span className={classes.orange}>G</span><span className={classes.yellow}>B</span><span className={classes.green}>T</span><span className={classes.blue}>Q</span><span className={classes.indigo}>I</span><span className={classes.violet}>A</span><span className={classes.plus}>+</span></span> young people <p className= {`${classes.trevor} ${classes.robotoRegular} ${classes.listItem}`}><strong>Text:</strong> START to 678-678</p>
                 <p className={`${classes.robotoRegular} ${classes.listItem}`}><strong>Hotline:</strong> 1-866-488-7386</p>
-                <p className={`${classes.robotoRegular} ${classes.listItem}`}><strong>Chat online:</strong> <a className={classes.link} href="www.thetrevorproject.org/webchat">www.thetrevorproject.org/webchat</a></p></li>
+                <p className={`${classes.robotoRegular} ${classes.listItem}`}><strong>Chat online:</strong> <a className={classes.link} href="https://thetrevorproject.org/webchat" target="_blank">www.thetrevorproject.org/webchat</a></p></li>
               </ul>
               <hr />
               <p className={`${classes.nanumMyeongjoRegular} ${classes.listHeader}`}>Somatic (Body) Movement</p>

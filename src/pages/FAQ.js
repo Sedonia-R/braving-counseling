@@ -40,18 +40,18 @@ export default function FAQ() {
           <div className={classes.faqContainer}>
             <h1 className={`${classes.pageTitle} ${classes.shadowsIntoLightRegular}`}><strong>Frequently Asked Questions (FAQ)</strong></h1>
             <div>
-              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
-                <input id="check01" type="checkbox" name="menu" />  
-                <label for="check01">Do you accept insurance?</label>  
-                  <ul className={classes.submenu}>  
-                      <li className={`${classes.answer} ${classes.robotoRegular}`}>I do accept some insurance (Aetna and Citgna and Evernorth) and offer a reduced-rate sliding scale ($95- $175) for sessions. I can provide a super bill for out of network benefits for possible reimbursement. Please contact me for more information.</li>  
-                  </ul>
-              </div>
-              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
+            <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
                 <input id="check02" type="checkbox" name="menu" />  
                 <label for="check02">How much do you charge?</label>  
                   <ul className={classes.submenu}>  
                       <li className={`${classes.answer} ${classes.robotoRegular}`}>My standard rate is $175 per 50 minute session. I offer a reduced-rate sliding scale starting at $95 per session for those who cannot afford the standard rate.</li>  
+                  </ul>
+              </div>
+              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
+                <input id="check01" type="checkbox" name="menu" />  
+                <label for="check01">Do you accept insurance?</label>  
+                  <ul className={classes.submenu}>  
+                      <li className={`${classes.answer} ${classes.robotoRegular}`}>I accept Aetna, Citgna, Oxford, and Unired Health. For those without insurance, I offer a reduced-rate sliding scale ($95- $175) for sessions. I can provide a super bill for out of network benefits for possible reimbursement. Please contact me for more information.</li>  
                   </ul>
               </div>
               <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
@@ -73,10 +73,24 @@ export default function FAQ() {
                   </ul>
               </div>
               <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
+                <input id="check10" type="checkbox" name="menu" />  
+                <label for="check10">What is a Good Faith Estimate?</label>  
+                  <ul className={classes.submenu}>  
+                      <li className={`${classes.answer} ${classes.robotoRegular}`}>- Under Section 2799B-6 of the Public Health Service Act, health care providers and health care facilities are required to inform individuals who are not enrolled in a plan or coverage or a Federal health care program, or not seeking to file a claim with their plan or coverage both orally and in writing of their ability, upon request or at the time of scheduling health care items and services, to receive a “Good Faith Estimate” of expected charges. You have the right to receive a “Good Faith Estimate” explaining how much your medical care will cost. Under the law, health care providers need to give patients who don’t have insurance or who are not using insurance an estimate of the bill for medical items and services. You have the right to receive a Good Faith Estimate for the total expected cost of any non-emergency items or services. This includes related costs like medical tests, prescription drugs, equipment, and hospital fees. Make sure your health care provider gives you a Good Faith Estimate in writing at least 1 business day before your medical service or item. You can also ask your health care provider, and any other provider you choose, for a Good Faith Estimate before you schedule an item or service. If you receive a bill that is at least $400 more than your Good Faith Estimate, you can dispute the bill. Make sure to save a copy or picture of your Good Faith Estimate. For questions or more information about your right to a Good Faith Estimate, visit <a className={classes.link} href="https://cms.gov/nosurprises" target="_blank">www.cms.gov/nosurprises</a></li>  
+                  </ul>
+              </div>
+              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
                 <input id="check04" type="checkbox" name="menu" />  
                 <label for="check04">Do you offer virtual sessions?</label>  
                   <ul className={classes.submenu}>  
                       <li className={`${classes.answer} ${classes.robotoRegular}`}>Yes! I am happy to host our sessions over video if that is more convenient or comfortable for you.</li>  
+                  </ul>
+              </div>
+              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
+                <input id="check09" type="checkbox" name="menu" />  
+                <label for="check09">What is a boutique therapy practice?</label>  
+                  <ul className={classes.submenu}>  
+                      <li className={`${classes.answer} ${classes.robotoRegular}`}>A boutique therapy practice means that I operate at a much smaller scale than a large medical provider. This allows me to individualze your care to your specific needs. I keep a limited number of spots available in my schedule to allow for flexibility. If, for example, you experience a flare up or miss a session, we can likely reschedule you in the same week.</li>  
                   </ul>
               </div>
               <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
@@ -98,13 +112,6 @@ export default function FAQ() {
                 <label for="check07">What can I expect from my first session?</label>  
                   <ul className={classes.submenu}>  
                       <li className={`${classes.answer} ${classes.robotoRegular}`}>During our first session together, I will spend time getting to know you and what brings you to therapy. We will discuss any goals, hopes, or expectations that you have for our time together, and what changes you would like to see in your life.</li>  
-                  </ul>
-              </div>
-              <div className={`${classes.questionAndAnswer} ${classes.handleeRegular}`}>
-                <input id="check08" type="checkbox" name="menu" />  
-                <label for="check08">Question...</label>  
-                  <ul className={classes.submenu}>  
-                      <li className={`${classes.answer} ${classes.robotoRegular}`}>Answer</li>  
                   </ul>
               </div>
             </div>
