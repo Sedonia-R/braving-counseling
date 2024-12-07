@@ -228,7 +228,6 @@ h1 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 4.5vh;
-    color: red;
   }
   .intro {
     font-size: 2.5vh;
